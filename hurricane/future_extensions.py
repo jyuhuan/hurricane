@@ -22,6 +22,7 @@ Future.map = MethodType(future_map, None, Future)
 
 def future_flat_map(self, f):
     """
+    Flat map
 
     :type self: Future
     :type f: (object) -> Future
