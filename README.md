@@ -20,6 +20,7 @@ The following are possible with Hurricane but not with the original Tornado:
 ```py
 import hurricane.future_extensions
 
+# uppercased will be a Future of the string "HELLO"
 uppercased = sample_str().map(lambda s: s.upper())
 
 # TODO: Add more higher-order functions (such as flat_map)
